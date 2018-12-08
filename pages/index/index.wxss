@@ -1,0 +1,57 @@
+.category-wrapper{
+  display: flex;
+  padding: 10rpx;
+  border-bottom: 1rpx solid black;
+  
+}
+.category-item {
+  display: flex;
+  padding-right: 15rpx;
+  padding-left: 15rpx; 
+}
+.category-tab{
+  display: flex;
+}
+.active{
+  border-top: 5rpx solid black;
+  font-weight:bold;
+}
+
+/* 列表的 */
+.news-item{
+  display: flex;
+  border-bottom: 3rpx solid rgba(0, 0, 0, 0.1);
+  padding: 25rpx; 
+}
+.news-wrapper{
+  display:flex; 
+  flex-direction:column;
+  justify-content:center; 
+  align-items:center;
+  width: 100%;
+}
+.news-img{
+  width: 100%;
+  border-radius: 15px;
+}
+.text{
+  width: 100%;
+}
+.title{
+  margin-top: 20rpx;
+}
+.info{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 18rpx;
+
+}
+.time{
+  font-size: 28rpx;
+  opacity: 0.6;
+  margin-right: 18rpx;
+}
+.source{
+  font-size: 28rpx;
+  opacity: 0.6;
+}

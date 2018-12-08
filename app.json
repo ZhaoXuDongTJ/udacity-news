@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/list/list"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "优达学城新闻",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  }
+}

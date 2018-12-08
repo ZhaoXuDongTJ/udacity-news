@@ -1,0 +1,24 @@
+<view class="category-wrapper">
+    <view class="category-item" wx:key="unique" wx:for="{{categoryList}}">
+        <view class="category-tab {{category==item.cateClass?'active':''}}" bindtap="onTapCategory" data-category="{{item.cateClass}}">
+            {{item.cateChina}}
+        </view>
+    </view>
+</view>
+
+<scroll-view scroll-y="true">
+    <view class="news-list">
+        <view class="news-item" wx:key="unique" wx:for="{{newsList}}">
+            <view class="news-wrapper" bindtap="onTapNews" data-newsid="{{item.id}}">
+                <image class="news-img" src="{{item.firstImage}}"></image>
+                <view class="text">
+                    <view class="title">{{item.title}}</view>
+                    <view class="info">
+                      <view class="source">{{item.source}}</view>
+                      <view class="time">{{item.time}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</scroll-view>
