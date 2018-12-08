@@ -6,5 +6,5 @@
 - 新闻详情
 
 ### 学生
--name: zhaoxudong
--mail: 921982351@qq.com
+- name: zhaoxudong
+- mail: 921982351@qq.com
